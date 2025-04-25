@@ -18,6 +18,19 @@ p {
   font-size: 1.125rem;
 }
 
+@media screen and (max-width: 600px) {
+  .responsive-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .responsive-nav .w3-bar-item {
+    flex: 1 1 100%;
+    text-align: center;
+  }
+}
+
 /* === HEADER === */
 .fixed-header {
   background-image: url('Holding_cheese.jpg');
