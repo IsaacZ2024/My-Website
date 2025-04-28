@@ -96,14 +96,15 @@ p {
 
 .w3-bar .w3-bar-item:hover {
   transform: scale(1.1);
-  background-color: #009688;
+  background-color: #333;
 }
 
+/* Sticky Navigation Bar */
 .sticky-nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #009688;
+  background-color: #009688; /* Teal color */
   padding: 8px 0;
   z-index: 999;
   width: 100%;
