@@ -13,15 +13,6 @@ h1, h2, p {
   color: #333;
 }
 
-/* === HEADER & FOOTER TEXT COLORS === */
-header, footer, .w3-container.w3-teal {
-  color: white; /* Make all header/footer text white */
-}
-
-header h1, header p, footer p {
-  color: white !important;
-}
-
 /* === HEADER === */
 .fixed-header {
   background-image: url('Holding_cheese.jpg');
@@ -54,7 +45,7 @@ header h1, header p, footer p {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 109, 119, 0.5); /* Updated deeper teal */
+  background-color: rgba(0, 128, 128, 0.4);
   z-index: -1;
 }
 
