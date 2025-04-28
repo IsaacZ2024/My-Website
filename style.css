@@ -97,7 +97,7 @@ p {
 
 .w3-bar .w3-bar-item:hover {
   transform: scale(1.1);
-  background-color: #333;
+  background-color: #4db6ac;
 }
 
 /* Sticky Navigation Bar */
@@ -109,17 +109,6 @@ p {
   padding: 8px 0;
   z-index: 999;
   width: 100%;
-}
-
-/* White text color for navbar items */
-.sticky-nav .w3-bar-item {
-  color: white; /* Make the text white */
-  transition: color 0.3s ease;
-}
-
-/* Optional: Hover effect for text */
-.sticky-nav .w3-bar-item:hover {
-  color: #e0e0e0; /* Lighter shade of white when hovered */
 }
 
 /* When scrolled */
