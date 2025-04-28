@@ -28,7 +28,6 @@ p {
   .responsive-nav .w3-bar-item {
     flex: 1 1 100%;
     text-align: center;
-    
   }
 }
 
@@ -91,13 +90,15 @@ p {
 .w3-bar .w3-bar-item {
   padding: 5px 40px;
   margin: 5px 7px;
-  transition: transform 0.4s ease, background-color 0.4s ease;
+  transition: transform 0.4s ease, background-color 0.4s ease, color 0.4s ease;
   border-radius: 4px;
+  color: white; /* Text is white */
 }
 
 .w3-bar .w3-bar-item:hover {
   transform: scale(1.1);
-  background-color: #4db6ac;
+  background-color: #00796b !important; /* Force lighter teal background on hover */
+  color: white !important; /* Keep text white on hover */
 }
 
 /* Sticky Navigation Bar */
